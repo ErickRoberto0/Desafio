@@ -1,0 +1,15 @@
+/* Estilos globais */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para elementos específicos */
+html, body {
+  font-family: sans-serif;
+  background-color: rgba(44, 44, 44, 1);
+  
+}
+
+

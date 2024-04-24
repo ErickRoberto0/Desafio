@@ -1,0 +1,29 @@
+/* Define a cor branca para o texto dentro de .container e todos os seus elementos filhos */
+.container, .container * {
+    color: white; 
+}
+
+/* Define as propriedades de layout para o container principal */
+.container {
+    width: 1200px; /* Largura do container */
+    margin: 0 auto; /* Margem automática nas laterais para centralizar */
+    padding: 3em; /* Espaçamento interno */
+}
+
+/* Estilo para o cabeçalho dentro do container */
+.container h1 {
+    margin-bottom: 0.5em; /* Margem inferior */
+}
+
+/* Estilo para o container dos botões */
+.buttonContainer {
+    margin-top: 1em; /* Margem superior */
+    margin-bottom: 1em; /* Margem inferior */
+    display: flex; /* Layout flexível para os botões */
+    gap: 1em; /* Espaçamento entre os botões */
+}
+
+/* Estilo para o botão de limpar */
+.clear {
+    margin-left: auto; /* Alinha o botão à direita */
+}

@@ -1,0 +1,16 @@
+/* Define a cor branca para todo o texto dentro do elemento .container e seus descendentes */
+.container, .container * {
+    color: white;
+}
+
+/* Estilo para o container principal */
+.container {
+    width: 700px; /* Largura do container */
+    margin: 0 auto; /* Margem automática nas laterais para centralizar */
+    padding: 3em; /* Espaçamento interno */
+}
+
+/* Estilo para o cabeçalho dentro do container */
+.container h1 {
+    margin-bottom: 0.5em; /* Margem inferior */
+}

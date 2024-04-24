@@ -1,0 +1,45 @@
+/* Estilo para a tabela */
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px; /* Adiciona margem negativa para compensar a margem dos cards */
+}
+
+.produtos {
+    flex: 1 0 calc(33.333% - 16px); /* Distribui os cards em três colunas com espaçamento */
+    margin: 8px; /* Define o espaçamento entre os cards */
+    border-radius: 8px;
+    background-color: rgb(82, 82, 82); /* Define o fundo cinza claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os cabeçalhos da tabela */
+.produtos th {
+    background-color: rgb(82, 82, 82); /* Define o fundo cinza claro para o cabeçalho */
+    padding: 12px;
+    margin: 8px; /* Define o espaçamento entre o cabeçalho e os cards */
+}
+/* Estilo para cada cabeçalho específico */
+.produtos th:nth-child(1) { /* Primeiro cabeçalho */
+    width: 3em; /* Define o tamanho para o primeiro cabeçalho */
+}
+
+.produtos th:nth-child(5) { /* Primeiro cabeçalho */
+    width: 5em; /* Define o tamanho para o primeiro cabeçalho */
+}
+
+.produtos th:nth-child(7) { /* Primeiro cabeçalho */
+    width: 3em; /* Define o tamanho para o primeiro cabeçalho */
+}
+
+/* Estilo para as células da tabela */
+.produtos td {
+    padding: 12px;
+    text-align: center;
+}
+
+.cod{
+    width: 50px;
+    text-align: center;
+
+}

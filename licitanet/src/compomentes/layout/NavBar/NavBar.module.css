@@ -1,0 +1,22 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgba(32, 167, 126, 1);
+    padding: 0.8em;
+}
+
+.iten {
+    margin-right: 5em;
+}
+
+.iten a {
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: inherit ;
+    text-decoration: none;
+}
+
+.iten a:hover {
+    color: #3b3a3a;
+}

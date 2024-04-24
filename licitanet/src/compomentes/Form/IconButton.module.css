@@ -1,0 +1,35 @@
+/* IconButton.module.css */
+
+/* Estilos para botões comuns */
+.icon-button,
+.icon-button-del {
+    /* Estilos básicos para o botão */
+    border: none; /* Remove a borda */
+    width: 1em; /* Define a largura do botão */
+    height: 1em; /* Define a altura do botão */
+    font-size: 1em; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    display: inline-flex; /* Torna o conteúdo flexível e mantém em linha */
+
+}
+
+/* Estilos para o botão padrão */
+.icon-button {
+    background-color: #0000; /* Cor de fundo verde */
+    margin-right: 0.4em;
+
+}
+
+.icon-button:hover {
+    background-color: #45a049; /* Cor de fundo verde mais escura ao passar por cima */
+}
+
+/* Estilos para o botão de exclusão */
+.icon-button-del {
+    background-color: #0000; /* Cor de fundo vermelha */
+    margin-right: -0.4em;
+}
+
+.icon-button-del:hover {
+    background-color: #e62727; /* Cor de fundo vermelha mais escura ao passar por cima */
+}
